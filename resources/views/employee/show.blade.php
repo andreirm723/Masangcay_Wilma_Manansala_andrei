@@ -22,7 +22,7 @@
                     <div class="alert alert-info">
                      Employee Table
                     </div>
-                    <a onclick ="return confirm('Are you sure?')"class="btn btn-info m-2 " href="#">Add New Employee</a></td>
+                    <a onclick ="return confirm('Are you sure?')"class="btn btn-danger m-2 " href="#">Add New Employee</a></td>
                     <div class="card">
                         <div class="card-body p-0">
 
