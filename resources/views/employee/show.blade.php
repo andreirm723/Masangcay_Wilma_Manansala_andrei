@@ -73,10 +73,14 @@
                                   
                                         <td class="d-flex p-2">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         <a class="btn btn-info m-2 " href="{{ url('employee/'.$st->id.'/edit')}}">Edit</a>
 =======
                                         <a class="btn btn-danger m-2 " href="{{ url('employee/'.$st->id.'/edit')}}">Edit</a>
 >>>>>>> fdacb48aea57983c4027f7f64d849018ab8fafde
+=======
+                                        <a class="btn btn-info m-2 " href="{{ url('employee/'.$st->id.'/edit')}}">Edit</a>
+>>>>>>> fcb4fa8915e416efbbecd99f4674967905f5d350
                                         <a onclick ="return confirm('Are you sure?')"class="btn btn-danger m-2 " href="{{ url('employee/'.$st->id.'/delete')}}">Delete</a></td>
                                     </tr>
                                 @endforeach
