@@ -22,7 +22,11 @@
                     <div class="alert alert-info">
                      Employee Table
                     </div>
+<<<<<<< HEAD
                     <a onclick ="return confirm('Are you sure?')"class="btn btn-info m-2 " href="#">Add New Employee</a></td>
+=======
+
+>>>>>>> fdacb48aea57983c4027f7f64d849018ab8fafde
                     <div class="card">
                         <div class="card-body p-0">
 
@@ -68,7 +72,11 @@
                                  
                                   
                                         <td class="d-flex p-2">
+<<<<<<< HEAD
                                         <a class="btn btn-info m-2 " href="{{ url('employee/'.$st->id.'/edit')}}">Edit</a>
+=======
+                                        <a class="btn btn-danger m-2 " href="{{ url('employee/'.$st->id.'/edit')}}">Edit</a>
+>>>>>>> fdacb48aea57983c4027f7f64d849018ab8fafde
                                         <a onclick ="return confirm('Are you sure?')"class="btn btn-danger m-2 " href="{{ url('employee/'.$st->id.'/delete')}}">Delete</a></td>
                                     </tr>
                                 @endforeach
