@@ -68,7 +68,7 @@
                                  
                                   
                                         <td class="d-flex p-2">
-                                        <a class="btn btn-danger m-2 " href="{{ url('employee/'.$st->id.'/edit')}}">Edit</a>
+                                        <a class="btn btn-info m-2 " href="{{ url('employee/'.$st->id.'/edit')}}">Edit</a>
                                         <a onclick ="return confirm('Are you sure?')"class="btn btn-danger m-2 " href="{{ url('employee/'.$st->id.'/delete')}}">Delete</a></td>
                                     </tr>
                                 @endforeach
