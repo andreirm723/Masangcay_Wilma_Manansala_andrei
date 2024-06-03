@@ -144,7 +144,7 @@
                 <!-- /.card-body -->
 
                 <div class="card-footer">
-                  <button type="submit" class="btn btn-success">Submit</button>
+                  <button type="submit" class="btn btn-danger">OKAY</button>
                 </div>
               </form>
             </div>
