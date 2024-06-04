@@ -10,10 +10,19 @@ class EmployeeController extends Controller
     {
         return view('employee.index');
     }
+    public function student()
+    {
+        return view('employee.student');
+    }
     public function show()
     {
         $employees=employ::get();
         return view('employee.show', compact('employees'));
+    }
+    public function show1()
+    {
+        $employees2=employ::get();
+        return view('employee.student', compact('employees'));
     }
     public function destroy(int $id)
     {

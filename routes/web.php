@@ -21,12 +21,13 @@ Auth::routes();
 route::post('employee',[\App\Http\Controllers\EmployeeController::class, 'store']);
 Route::get('employee\show', [\App\Http\Controllers\EmployeeController::class, 'show'])->name('employee.show');
 Route::get('employee', [\App\Http\Controllers\EmployeeController::class, 'index'])->name('employee.index');
+Route::get('employee\student', [\App\Http\Controllers\EmployeeController::class, 'show1'])->name('employee.student');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('employee/{id}/edit', [\App\Http\Controllers\EmployeeController::class, 'edit']);
 Route::put('employee/{id}/edit', [\App\Http\Controllers\EmployeeController::class, 'update']);
 Route::get('employee/{id}/delete', [\App\Http\Controllers\EmployeeController::class, 'destroy']);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
+Route::get('/student', [\App\Http\Controllers\EmployeeController::class, 'student'])->name('employee.student');
 Route::middleware('auth')->group(function () {
     Route::view('about', 'about')->name('about');
 
