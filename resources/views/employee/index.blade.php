@@ -147,6 +147,7 @@
                   <button type="submit" class="btn btn-danger">OKAY</button>
                 </div>
               </form>
+              <img class="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="message user image">
             </div>
     <!-- /.content -->
 @endsection
