@@ -20,9 +20,11 @@
                 <div class="col-lg-12">
 
                     <div class="alert alert-info">
-                     Employee Table
+                     Student Table
                     </div>
-
+                    <div class="card-footer">
+                  <button type="submit" class="btn btn-primary " >Add new student</button>
+                </div>
                     <div class="card">
                         <div class="card-body p-0">
 
