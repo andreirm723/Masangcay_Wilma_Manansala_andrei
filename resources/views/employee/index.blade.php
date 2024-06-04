@@ -27,7 +27,7 @@
            
               <form  style="padding:20px; " method="POST" action="{{ url('employee') }}">
               {{ csrf_field() }}
-                <div   style="margin-left:50px; margin-right:50px;" class="card-body">
+                <div   style="margin-left:20px; margin-right:20px;" class="card-body">
               
                   <div class="form-group">
                     <label for="exampleInputEmail1">First Name</label>
@@ -147,7 +147,6 @@
                   <button type="submit" class="btn btn-danger">OKAY</button>
                 </div>
               </form>
-              <img class="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="message user image">
             </div>
     <!-- /.content -->
 @endsection
